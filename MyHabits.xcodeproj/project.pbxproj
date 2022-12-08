@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		F750AE5C291E75270080BC73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE5B291E75270080BC73 /* AppDelegate.swift */; };
 		F750AE5E291E75270080BC73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE5D291E75270080BC73 /* SceneDelegate.swift */; };
-		F750AE60291E75270080BC73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE5F291E75270080BC73 /* ViewController.swift */; };
 		F750AE63291E75270080BC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750AE61291E75270080BC73 /* Main.storyboard */; };
 		F750AE65291E75280080BC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F750AE64291E75280080BC73 /* Assets.xcassets */; };
 		F750AE68291E75280080BC73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750AE66291E75280080BC73 /* LaunchScreen.storyboard */; };
+		F750AE72291E76690080BC73 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE71291E76690080BC73 /* Colors.swift */; };
+		F750AE74291E76720080BC73 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE73291E76720080BC73 /* Texts.swift */; };
+		F750AE77291E77570080BC73 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE76291E77570080BC73 /* HabitsStore.swift */; };
+		F750AE79291E77780080BC73 /* HabitsSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE78291E77780080BC73 /* HabitsSettingsController.swift */; };
+		F750AE7C291E77CD0080BC73 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE7B291E77CD0080BC73 /* HabitsViewController.swift */; };
+		F750AE7E291E77ED0080BC73 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE7D291E77ED0080BC73 /* InfoViewController.swift */; };
+		F750AE80291E8DD80080BC73 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE7F291E8DD80080BC73 /* ProgressCollectionViewCell.swift */; };
+		F750AE832923C0460080BC73 /* HabitsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE822923C0460080BC73 /* HabitsCollectionViewCell.swift */; };
+		F750AE85292A1D2D0080BC73 /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AE84292A1D2D0080BC73 /* HabitDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F750AE58291E75270080BC73 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F750AE5B291E75270080BC73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F750AE5D291E75270080BC73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F750AE5F291E75270080BC73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F750AE62291E75270080BC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F750AE64291E75280080BC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F750AE67291E75280080BC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F750AE69291E75280080BC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F750AE71291E76690080BC73 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F750AE73291E76720080BC73 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		F750AE76291E77570080BC73 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		F750AE78291E77780080BC73 /* HabitsSettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsSettingsController.swift; sourceTree = "<group>"; };
+		F750AE7B291E77CD0080BC73 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		F750AE7D291E77ED0080BC73 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F750AE7F291E8DD80080BC73 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		F750AE822923C0460080BC73 /* HabitsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F750AE84292A1D2D0080BC73 /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 		F750AE4F291E75270080BC73 = {
 			isa = PBXGroup;
 			children = (
+				F750AE76291E77570080BC73 /* HabitsStore.swift */,
 				F750AE5A291E75270080BC73 /* MyHabits */,
 				F750AE59291E75270080BC73 /* Products */,
 			);
@@ -56,15 +73,62 @@
 		F750AE5A291E75270080BC73 /* MyHabits */ = {
 			isa = PBXGroup;
 			children = (
-				F750AE5B291E75270080BC73 /* AppDelegate.swift */,
-				F750AE5D291E75270080BC73 /* SceneDelegate.swift */,
-				F750AE5F291E75270080BC73 /* ViewController.swift */,
-				F750AE61291E75270080BC73 /* Main.storyboard */,
+				F750AE6F291E75A20080BC73 /* App */,
 				F750AE64291E75280080BC73 /* Assets.xcassets */,
-				F750AE66291E75280080BC73 /* LaunchScreen.storyboard */,
+				F750AE81291E94770080BC73 /* Cells */,
+				F750AE7A291E77B20080BC73 /* ViewControllers */,
+				F750AE75291E771D0080BC73 /* StoryBoard */,
 				F750AE69291E75280080BC73 /* Info.plist */,
+				F750AE70291E765B0080BC73 /* Colors and Texts */,
 			);
 			path = MyHabits;
+			sourceTree = "<group>";
+		};
+		F750AE6F291E75A20080BC73 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F750AE5B291E75270080BC73 /* AppDelegate.swift */,
+				F750AE5D291E75270080BC73 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F750AE70291E765B0080BC73 /* Colors and Texts */ = {
+			isa = PBXGroup;
+			children = (
+				F750AE71291E76690080BC73 /* Colors.swift */,
+				F750AE73291E76720080BC73 /* Texts.swift */,
+			);
+			path = "Colors and Texts";
+			sourceTree = "<group>";
+		};
+		F750AE75291E771D0080BC73 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F750AE61291E75270080BC73 /* Main.storyboard */,
+				F750AE66291E75280080BC73 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		F750AE7A291E77B20080BC73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F750AE7D291E77ED0080BC73 /* InfoViewController.swift */,
+				F750AE7B291E77CD0080BC73 /* HabitsViewController.swift */,
+				F750AE78291E77780080BC73 /* HabitsSettingsController.swift */,
+				F750AE84292A1D2D0080BC73 /* HabitDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F750AE81291E94770080BC73 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F750AE7F291E8DD80080BC73 /* ProgressCollectionViewCell.swift */,
+				F750AE822923C0460080BC73 /* HabitsCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F750AE60291E75270080BC73 /* ViewController.swift in Sources */,
+				F750AE77291E77570080BC73 /* HabitsStore.swift in Sources */,
+				F750AE72291E76690080BC73 /* Colors.swift in Sources */,
+				F750AE79291E77780080BC73 /* HabitsSettingsController.swift in Sources */,
+				F750AE7E291E77ED0080BC73 /* InfoViewController.swift in Sources */,
+				F750AE85292A1D2D0080BC73 /* HabitDetailsViewController.swift in Sources */,
 				F750AE5C291E75270080BC73 /* AppDelegate.swift in Sources */,
+				F750AE80291E8DD80080BC73 /* ProgressCollectionViewCell.swift in Sources */,
+				F750AE74291E76720080BC73 /* Texts.swift in Sources */,
 				F750AE5E291E75270080BC73 /* SceneDelegate.swift in Sources */,
+				F750AE7C291E77CD0080BC73 /* HabitsViewController.swift in Sources */,
+				F750AE832923C0460080BC73 /* HabitsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +366,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +394,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
